@@ -98,7 +98,13 @@
         line-height: 20px;
         max-width: 300px;
     }
-.services-readmore img{
+.services-readmore{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+    
+    .services-readmore img{
     width: 12px;
 }
 .services-container{
