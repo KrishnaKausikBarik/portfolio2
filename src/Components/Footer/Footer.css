@@ -86,6 +86,7 @@
         gap: 50px;
     }
     .footer-top-right{
+        flex-direction: column;
         margin-top: 20px;
     }
     .footer-bottom{
@@ -93,4 +94,5 @@
         flex-direction: column-reverse;
         margin-bottom: 50px;
     }
+
 }
