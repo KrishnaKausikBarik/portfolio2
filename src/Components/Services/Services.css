@@ -72,3 +72,38 @@
     transform: scale(1.05);
     transition: 0.4s;
 }
+@media (max-width: 768px) {
+    .services{
+        align-items: start;
+        gap: 70px;
+        margin: 20px 70px;
+    }
+    .services-title h1{
+        font-size: 40px;
+        padding: 0;
+    }
+    .services-title img{
+        width: 100px;
+        margin-right: -20px;
+    }
+    .services-format{
+        gap: 10px;
+        padding: 32px;
+    }
+    .services-format h3{
+        font-size: 22px;
+    }
+    .services-format p{
+        font-size: 15px;
+        line-height: 20px;
+        max-width: 300px;
+    }
+.services-readmore img{
+    width: 12px;
+}
+.services-container{
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+}

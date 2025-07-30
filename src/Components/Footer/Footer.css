@@ -5,6 +5,11 @@
     gap:30px;
 
 }
+.footer hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.354);
+}
 
 .footer-top{
     display: flex;
@@ -71,4 +76,21 @@
 .footer-subscribe:hover{
     transform: scale(1.05);
     transition: 0.3s;
+}
+@media (max-width: 768px) {
+    .footer{
+        margin: 50px 70px;
+    }
+    .footer-top{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footer-top-right{
+        margin-top: 20px;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
 }

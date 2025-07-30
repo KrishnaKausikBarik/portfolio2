@@ -103,3 +103,48 @@
     transform: scale(1.05);
     transition: 0.3s;
 }
+@media (max-width: 768px) {
+    .contact{
+        gap: 50px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+    .contact-title h1{
+        font-size: 40px;
+        padding: 0px;
+        font-weight: 600;
+    }
+    .contact-title img{
+        width: 100px;
+        margin-right: -20px;
+    }
+    .contact-section{
+        flex-direction: column;
+    }
+    .contact-left h1{
+        font-size: 34px;
+    }
+    .contact-left p{
+        font-size: 16px;
+    }
+    .contact-detail{
+        gap: 20px;
+    }
+    .contact-detail img{
+        width: 20px;
+    }
+    .contact-right label{
+        font-size: 15px;
+    }
+    .contact-right input{
+        width: 100%;
+        font-size: 15px;
+    }
+    .contact-right textarea{
+        width: 95%;
+        font-size: 15px;
+    }
+    .contact-submit{
+        font-size: 16px;
+    }
+}
