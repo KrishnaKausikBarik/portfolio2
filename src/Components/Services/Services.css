@@ -108,6 +108,8 @@
     width: 12px;
 }
 .services-container{
+    display: flex;
+    justify-content: space-between;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
