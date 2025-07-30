@@ -132,11 +132,12 @@
         height: 5px;
     }
     .about-achievements{
+        display:flex;
         justify-content: space-between;
-        gap: 30px;
+        gap: 20px;
     }
     .about-achievement{
-        gap: 50px;
+        gap: 10px;
     }
     .about-achievement h1{
         font-size: 30px;
