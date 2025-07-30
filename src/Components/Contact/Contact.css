@@ -148,3 +148,68 @@
         font-size: 16px;
     }
 }
+
+@media (max-width: 480px) {
+    .contact {
+        gap: 40px;
+        margin: 40px 20px;
+        align-items: start;
+    }
+
+    .contact-title h1 {
+        font-size: 28px;
+        padding: 0;
+    }
+
+    .contact-title img {
+        width: 80px;
+    }
+
+    .contact-section {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contact-left h1 {
+        font-size: 28px;
+    }
+
+    .contact-left p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .contact-details {
+        font-size: 16px;
+        gap: 20px;
+    }
+
+    .contact-detail {
+        gap: 15px;
+    }
+
+    .contact-detail img {
+        width: 18px;
+    }
+
+    .contact-right label {
+        font-size: 14px;
+    }
+
+    .contact-right input,
+    .contact-right textarea {
+        width: 100%;
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .contact-right textarea {
+        width: 100%;
+    }
+
+    .contact-submit {
+        font-size: 15px;
+        padding: 10px 16px;
+        margin-bottom: 30px;
+    }
+}
