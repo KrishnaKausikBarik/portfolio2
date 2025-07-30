@@ -118,12 +118,12 @@
         align-items: center;
     }
     .services-title h1 {
-        font-size: 32px;
+        font-size: 40px;
         text-align: center;
     }
     .services-title img {
-        width: 80px;
-        right: 10px;
+         width: 100px;
+        margin-right: -20px;
     }
     .services-container {
         grid-template-columns: 1fr 1fr; /* ⬅️ Two boxes per row */
