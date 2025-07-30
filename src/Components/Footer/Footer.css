@@ -181,7 +181,7 @@
 
     .footer-bottom {
         flex-direction: column;
-        gap: 10px;
+        gap: 50px;
     }
 
     .footer-bottom-right {
