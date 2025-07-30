@@ -162,7 +162,8 @@
     }
 
     .contact-title img {
-        width: 80px;
+        width: 100px;
+        margin-right: -20px;
     }
 
     .contact-section {
