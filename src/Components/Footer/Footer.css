@@ -147,27 +147,51 @@
         font-size: 16px;
     }
 
+    .footer-top {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-top-right {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
     .footer-email-input {
+        flex: 1;
+        display: flex;
         gap: 10px;
         padding: 8px 12px;
+        background-color: #32323b;
     }
 
     .footer-email-input input {
         font-size: 14px;
+        width: 100%;
     }
 
     .footer-subscribe {
         font-size: 16px;
-        padding: 10px;
+        padding: 10px 15px;
+        white-space: nowrap;
     }
 
     .footer-bottom {
-        font-size: 14px;
+        flex-direction: column;
+        gap: 10px;
     }
 
     .footer-bottom-right {
-        gap: 15px;
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 10px;
+        margin-bottom: 20px;
+        font-size: 14px;
     }
 }
+
